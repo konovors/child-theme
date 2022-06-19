@@ -1,0 +1,7 @@
+@use "~sass-mq/mq";
+
+@include mq.mq($from: wide) {
+  .container {
+    max-width: 1440px !important;
+  }
+}

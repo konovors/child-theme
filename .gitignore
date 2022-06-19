@@ -1,0 +1,14 @@
+config/modules.php
+dist
+node_modules
+yarn-error.log
+vendor
+*.zip
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

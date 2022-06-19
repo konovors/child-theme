@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KNV\n"
+"POT-Creation-Date: 2021-12-06 13:11+0100\n"
+"PO-Revision-Date: 2021-12-06 13:12+0100\n"
+"Last-Translator: Sibin Grasic <sibin.grasic@oblak.studio>\n"
+"Language-Team: Sibin Grasic <sibin.grasic@oblak.studio>\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: framework/WooCommerce/Category/SecondDescription.php:30
+#: framework/WooCommerce/Category/SecondDescription.php:59
+msgid "Description"
+msgstr ""
+
+#: framework/WooCommerce/Category/SecondDescription.php:33
+#: framework/WooCommerce/Category/SecondDescription.php:63
+msgid ""
+"The description is not prominent by default; however, some themes may show "
+"it."
+msgstr ""
+
+#: framework/WooCommerce/Category/SecondDescription.php:38
+#: framework/WooCommerce/Category/SecondDescription.php:69
+msgid "Additional content"
+msgstr "Додатни садржај"
+
+#: framework/WooCommerce/Checkout/CheckoutFields.php:10
+msgid "Person"
+msgstr "Физичко лице"
+
+#: framework/WooCommerce/Checkout/CheckoutFields.php:11
+msgid "Company"
+msgstr "Правно лице"
+
+#: framework/WooCommerce/Checkout/CheckoutFields.php:36
+#: framework/WooCommerce/Checkout/CheckoutFields.php:103
+msgid "Entity type"
+msgstr "Тип субјекта"
+
+#: framework/WooCommerce/Checkout/CheckoutFields.php:46
+#: framework/WooCommerce/Checkout/CheckoutFields.php:110
+msgid "Company Number"
+msgstr "Матични број"
+
+#: framework/WooCommerce/Checkout/CheckoutFields.php:60
+#: framework/WooCommerce/Checkout/CheckoutFields.php:115
+msgid "Tax Number"
+msgstr "ПИБ"
+
+#: framework/WooCommerce/Product/PriceHtml.php:39
+msgid "Regular price"
+msgstr ""
+
+#: framework/WooCommerce/Product/PriceHtml.php:72
+msgid "You save"
+msgstr "Уштедели сте"
+
+#. Theme Name of the plugin/theme
+msgid "KNV"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://oblak.studio/portfolio/knv"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "KNV Child Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Oblak Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://oblak.studio"
+msgstr ""

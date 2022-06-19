@@ -1,0 +1,35 @@
+{
+    "autoload": {
+      "psr-4": {
+        "Extremis\\": "framework/"
+      },
+      "files": [
+        "framework/Utils/helpers.php",
+        "framework/Utils/setup.php"
+      ]
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "3.*",
+      "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+      "wp-coding-standards/wpcs": "*",
+      "phpcompatibility/phpcompatibility-wp": "*"
+    },
+    "require": {
+      "oblak/extremis-core": "1",
+      "oblak/asset-loader": "^1.0"
+    },
+    "scripts" :{
+      "install-codestandards": [
+        "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+      ],
+      "post-install-cmd": [
+          "@install-codestandards"
+      ],
+      "post-autoload-dump": [
+        "composer run-script generate-classmap"
+      ],
+      "generate-classmap": [
+        "Extremis\\AutoConstructor::run"
+      ]
+    }
+  }
